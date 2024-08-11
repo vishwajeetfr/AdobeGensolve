@@ -25,7 +25,9 @@ cd AdobeGensolve
 
 Set Up the Environment
 It's recommended to use a virtual environment:
+
 python3.11 -m venv venv
+
 source venv/bin/activate
 
 Install Required Dependencies
