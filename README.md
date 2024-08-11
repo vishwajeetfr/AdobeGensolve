@@ -5,7 +5,6 @@ This is a Python application that processes 2D shape data from a CSV file, ident
 ## Table of Contents
 
 - [Features](#features)
-- [Project Structure](#project-structure)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Docker Usage](#docker-usage)
@@ -16,30 +15,12 @@ This is a Python application that processes 2D shape data from a CSV file, ident
 - Visualization: Displays the output image as a PNG using matplotlib for immediate visualization.
 - Flexible Input: Reads input data from CSV files, making it easy to integrate with other data processing pipelines.
 
-
-## Project Structure
-AdobeGensolve/
-│
-├── src/
-│   ├── shape_regularization.py    # Main application script
-│
-├── dataset/
-│   ├── frag0.csv                  # Example input CSV file
-│
-├── notebook/
-│   ├── ShapeRegularization.ipynb  # Google Colab notebook
-│
-├── venv/                          # Python virtual environment
-│
-├── requirements.txt               # List of Python dependencies
-├── Dockerfile                     # Dockerfile for containerization
-└── README.md                      # Project description and instructions
-
 ## Usage
 For Running the Application Locally
 
 Clone the Repository
 git clone https://github.com/yourusername/AdobeGensolve.git
+
 cd AdobeGensolve
 
 Set Up the Environment
